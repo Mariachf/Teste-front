@@ -1,0 +1,134 @@
+.mercadorias{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 48px;
+    
+}
+
+.button{
+    display: grid;
+    text-align: center;
+    
+    .highlight{
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+.button-1{
+    display: grid;
+    text-align: center;
+}
+
+.btn-1{
+    width: 128px; 
+    height: 128px; 
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    display: grid; 
+    place-items: center; 
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mercadoria-span{
+    font-size:14px ;
+    color: #4E4E4E;
+    cursor: pointer;
+}
+
+.btn{
+    width: 128px; 
+    height: 128px; 
+    border-radius: 10px;
+    display: grid; 
+    place-items: center; 
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.parceria{
+    width: 1281px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap:13px;
+    margin: 0 auto;
+    
+}
+
+.box-parceria{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 80%), url('./assets/image\ 45.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 634px;
+    height: 350px;
+    border-radius: 20px;
+    padding-left:44px ;
+   
+
+    h3{
+        font-size: 35px;
+        font-weight: 600;
+        color: #FFFFFF;
+        margin-bottom: 3px;
+        padding-top: 144px;
+        
+    }
+    p{
+        width: 199px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    button{
+        width: 144px;
+        height: 48px;
+        background-color: #F7CA11;
+        font-size: 16px;
+        font-weight: 700;
+        color: #271C47;
+        border-radius: 6px;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+}
+
+.marcas{
+    width: 1250px;
+    height: 288px;
+    margin: 50px auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.box-circle{
+    display: flex;
+    margin-top: 30px;
+    gap: 42px;
+}
+
+.circle{
+    width: 211px;
+    height: 211px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+
+    img{
+        width: 117px;
+        height: 34px;
+    }
+}

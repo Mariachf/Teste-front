@@ -1,0 +1,253 @@
+ .container-slider {
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; 
+    position: relative;
+}
+
+
+.splide {
+    width: 1270px; 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.splide__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:#FFFFFF; 
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2; 
+    gap: 18px;
+}
+
+.splide__arrow--prev {
+    left: -30px; 
+}
+
+.splide__arrow--next {
+    right: -30px;
+}
+
+.product-card-1{
+    width: 278.1px;
+    height: 467px;
+    
+}
+
+.product-card {
+    width: 300px; 
+    height: 500px; 
+    
+    display: grid;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+   
+
+    h3{
+        color: #3F3F40;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    h5{
+        color: #3F3F40;
+        font-weight: 300;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    button{
+        width: 275px;
+        height: 44px;
+        background-color: #3442B5;
+        border-radius: 4px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+.product-card img {
+    width: 278.1px;
+    height: 228px;
+    
+}
+
+.desconto{
+    font-size: 16px;
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: #3F3F40;
+}
+
+.parcela{
+    font-weight: 400;
+    font-size: 12px;
+    color: #3F3F40;
+    margin-bottom: 7px;
+}
+
+.frete{
+    font-size: 12px;
+    font-weight: 400;
+    color:#3442B5;
+    margin-bottom: 10px;
+}
+
+.product-image{
+    width: 278px;
+    height: 467px;
+    
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 50%;          
+    left: 50%;        
+    transform: translate(-50%, -50%); 
+    width: 769px;
+    height: 299px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:34px;
+    z-index: 9999;
+    
+    img{
+        width: 247px;
+        height: 192.2px;
+    }
+    
+  }
+  
+  .modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9998; 
+}
+  
+  .modal-product-info {
+    width: 328px;
+    height: 198.41px;
+    display: grid;
+    gap: 32px;
+
+    h5{
+        font-weight: 400;
+        font-size: 20px;
+        color: #3F3F40;
+    }
+
+    .preco{
+        
+        font-weight: 600;
+        font-size: 20px;
+        color: #3F3F40;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 10px;
+       
+        color: #9F9F9F ;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 600;
+        color: #3442B5;
+    }
+}
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color:#707070;
+    cursor: pointer;
+
+
+  }
+  
+  .quantity {
+    width: 310px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    
+
+  }
+
+  .btn-compra{
+    width: 188px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #F7CA11;
+    font-size: 14px;
+    font-weight: 700;
+    color: #271C47;
+  }
+  
+  .quantity-btn-menos {
+    
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    position: relative;
+    left: 25px;
+  }
+  
+  .quantity-btn-mais{
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    position: relative;
+    right:30px;
+  }
+  
+  .quantity input {
+    width: 110px;
+    height: 36px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+  }

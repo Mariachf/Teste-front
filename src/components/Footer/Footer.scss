@@ -1,0 +1,176 @@
+.inscricao{
+    width: 100%;
+    height: 162px;
+    background-color: #271C47;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-insc{
+
+    width: 515px;
+    height: 82px;
+
+    h4{
+        font-weight: 600;
+        font-size: 30px;
+        color: #ffff;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 14px;
+        color: #ffff;
+    }
+
+
+}
+
+.inp-insc{
+    width: 639px;
+    
+    display: flex;
+    
+    gap:8px;
+    margin-bottom: 10px;
+   
+}
+
+#name::placeholder, #email::placeholder{
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+#name, #email{
+width: 233px;
+height: 42px;
+border-radius: 8px;
+padding-left:18px;
+
+}
+
+#button{
+    width: 157px;
+    height: 42px;
+    background-color: #F7CA11;
+    color:#161615;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.subscribeNews{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap: 4px;
+}
+
+.rodape{
+    width: 100%;
+    height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.box-primeiro{
+    width: 354px;
+    height: 159px;
+    display: grid;
+    gap: 18px;
+    
+    
+
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        color: #3F3F40;
+    }
+}
+
+.img-logo{
+    width: 164px;
+    height: 48px;
+}
+
+.redes{
+    display: flex;
+    gap:26px;
+    
+}
+
+.img-redes{
+    width: 24px;
+    height: 24px;
+}
+
+.linha-vertical{
+    width: 198px;
+    height: 0;
+    transform: rotate(-90deg);
+    border: solid 1px #2828282E;
+    
+}
+
+.box-segundo{
+    width: 631px;
+    height: 116px;
+    display: flex;
+    gap:100px;
+    
+    h5{
+        font-size: 16px;
+        font-weight: 700;
+        color:#222222B5;
+     }
+ 
+     a{
+         font-size: 13px;
+         font-weight: 400;
+         color: #222222B5;
+         text-decoration: none;
+     }
+}
+
+.text-final-1{
+    width: 121px;
+    height: 116px;
+    
+    display: grid;
+    gap: 16px;
+}
+
+.text-final-2{
+    width: 150px;
+    height: 116px;
+    display: grid;
+    gap: 16px;
+}
+
+.text-final-3{
+    width: 160px;
+    height: 116px;
+    display: grid;
+    gap: 16px;
+}
+
+.teste{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 13px;
+        font-weight: 300;
+        color:#3F3F40;
+    }
+}
