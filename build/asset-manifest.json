@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Teste-front/static/css/main.28530755.css",
+    "main.js": "/Teste-front/static/js/main.87812a39.js",
+    "static/media/Rectangle 250.png": "/Teste-front/static/media/Rectangle 250.81caaa8f8ad6df8dd086.png",
+    "static/media/image 45.png": "/Teste-front/static/media/image 45.4e9d2ae718faed3922ff.png",
+    "index.html": "/Teste-front/index.html",
+    "main.28530755.css.map": "/Teste-front/static/css/main.28530755.css.map",
+    "main.87812a39.js.map": "/Teste-front/static/js/main.87812a39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28530755.css",
+    "static/js/main.87812a39.js"
+  ]
+}
